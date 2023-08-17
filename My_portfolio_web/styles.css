@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sens-serif;
+}
+
+
+/*Home Posrtion-------------------------------------------------------------*/
+.home_div {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: url("images/nevbar.jpg") repeat;
+	background-size: cover;
+}
+/*Box which includes name in home page*/
+.name_box { 
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	top: 200px;
+	left: 550px;
+	padding: 20px 20px;
+	background-color: white;
+	text-align: center;
+}
+/*Name*/
+.name {
+	color: #0093E9;
+}
+/*Data science caption beneath name box*/
+.caption {
+	position: absolute;
+	width: 450px;
+	height: 150px;
+	top: 350px;
+	left: 450px;
+	padding: 10px 10px;
+	color: white;
+	font-family: sens-serif;
+	background: transparent;
+	text-align: center;
+	font-size: 1.625rem;	
+}
+
+
+
+
+
+/*NEvbar ----------------------------------------------------------------------------------*/
+/*Header which include nev bar*/
+.header {
+	background: url("images/nevbar.jpg") repeat;
+	background-size: cover;
+	border-bottom: 2px solid white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+/*Logo on left side in header*/
+.logo {
+	font-size: 32px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+
+}
+/*Nev bar in header*/
+.nevbar a {
+	position: relative;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+}
+.nevbar a::before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: .3s;
+}
+.nevbar a:hover::before {
+	width: 100%;
+}
+
+
+/*Services Portion-------------------------------------------------------*/
+.services_div {
+	position: relative;
+	padding: 100px 100px;
+	height: 600px;
+}
+/*h1 of service div*/
+.service_h1 {
+	border-bottom: 2px solid black;
+}
+.services_p1 {
+	font-size: 1.2rem;
+}
+.Services_footer {
+	position: absolute;
+	width: 85%;
+	height: 30px;
+	background: url("images/nevbar.jpg") repeat;
+	top: 570px;
+
+}
+.Services_back {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	right: 20px;
+	background: url("images/nevbar.jpg") repeat;
+	top: 570px;
+}
+.Services_back a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*All Images of services*/
+/*Analysis*/
+.analysis_img {
+	position: relative;
+	height: 100px;
+	width: 100px;
+}
+/*Analytics*/
+.analytics_img {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	left: 350px;
+	bottom: 150px;
+}
+/*Dashboard*/
+.dashboard_img {
+	position: relative;
+	height: 110px;
+	width: 110px;
+	bottom: 130px;
+}
+/*Ml*/
+.ml_img {
+	position: relative;
+	left: 680px;
+	bottom: 440px;
+	height: 100px;
+	width: 100px
+}
+/*Neural Network*/
+.nn_img {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	left: 350px;
+	bottom: 420px;
+}
+/*NLP*/
+.nlp_img {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	left: 680px;
+	bottom: 570px;
+}
+
+/*All Headers of services*/
+.A_h1 {
+	position: relative;
+	left: 350px;
+	bottom: 150px;
+}
+.D_h1 {
+	position: relative;
+	bottom: 140px;
+
+}
+.ml_h1 {
+	position: relative;
+	left: 680px;
+	bottom: 445px;
+}
+.NN_h1 {
+	position: relative;
+	left: 350px;
+	bottom: 420px;	
+}
+.NLP_h1 {
+	position: relative;
+	left: 680px;
+	bottom: 560px;
+}
+
+
+/*Portfolio Portion --------------------------------------------------------------------*/
+.portfolio_div {
+	position: relative;
+	text-align: center;
+	padding: 100px 100px;
+}
+.portfolio_div img {
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+}
+.portfolio_h1 {
+	width: 50%;
+}
+.portfolio_p {
+	width: 50%;
+	position: absolute;
+	left: 350px;
+	font-size: 1.2rem;
+}
+.img_1 {
+	position: relative;
+	top: 50px;
+}
+.img_2 {
+	position: relative;
+	top: 50px;
+}
+.img_3 {
+	position: relative;
+	top: 50px;
+}
+
+
+
+
+
+
+/*Contact Me Portion---------------------------------------------------*/
+.contact_me {
+	padding: 0px 100px;
+}
+.contact_me_h1 {
+	border-bottom: 2px solid black;
+}
+
+.CM_p {
+	font-size: 1.2rem;
+}
+.CM_cr {
+	font-size: 1.2rem;
+	text-align: center;
+}
+.CM_back {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	right: 20px;
+	background: url("images/nevbar.jpg") repeat;
+	/*top: 570px;*/
+}
+.CM_back a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+}
+
+
